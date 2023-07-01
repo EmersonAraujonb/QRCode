@@ -12,6 +12,7 @@ function App() {
       margin: 3
     }, function(err:any, url: any){
       setQrCodeLink(url);
+      console.log(err);
     })
   }
   function handleQRCode(e: any) {
